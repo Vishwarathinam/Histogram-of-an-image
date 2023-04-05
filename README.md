@@ -27,9 +27,11 @@ Print the original and equalized image using cv2.imshow() and end the program.
 ### Register Number:212221240063
 import cv2
 import matplotlib.pyplot as plt
-
+```
 ### Write your code to find the histogram of gray scale image and color image channels.
+```
 ~~~
+
 
 import cv2
 import matplotlib.pyplot as plt
@@ -40,8 +42,9 @@ cv2.imshow("Colour Image",clr_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ~~~
+```
 ### Display the histogram of gray scale image and any one channel histogram from color image
-
+```
 ~~~
 
 import cv2
@@ -66,8 +69,9 @@ plt.ylabel("Pixel Count")
 plt.stem(clr_hist)
 plt.show()
 ~~~
+```
 ### Write the code to perform histogram equalization of the image. 
-
+```
 ~~~
 
 import cv2
